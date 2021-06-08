@@ -1,0 +1,63 @@
+.nav-top{
+    justify-content: center;
+}
+
+.nav-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 150px;
+    background-color: white;
+    background-image: url('img/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-bot{
+    justify-content: flex-start;
+}
+
+.navbar-expand-md{
+    background-color: #f1f1df;
+    position: relative;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    font-size: 20px;
+}
+.nav-link {
+    color: #2c580b !important ;
+}
+
+
+.logo-veggy{
+    background-image: url("img/logo.png"); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* search bar */
+.search-container button:hover {
+    background: #ccc;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container {
+}
+  
+.nav-item{
+    margin-right: 45px;
+}
